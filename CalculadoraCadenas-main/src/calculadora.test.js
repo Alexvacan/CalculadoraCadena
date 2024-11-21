@@ -9,6 +9,11 @@ describe("Sumar digitos", () => {
     expect(calcularSumaCadena("1")).toEqual(1);
   });
 
+  it("Si la cadena tiene dos numeros, convertirlos a entero y retonar la suma", () => {
+    expect(calcularSumaCadena("5,2")).toEqual(7);
+  });
+
+
   
 
 });

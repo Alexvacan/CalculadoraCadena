@@ -5,6 +5,10 @@ describe("Sumar digitos", () => {
     expect(calcularSumaCadena("")).toEqual(0);
   });
 
+  it("Si la cadena tiene un solo numero, convertirlo a entero y retonar dicho numero", () => {
+    expect(calcularSumaCadena("1")).toEqual(1);
+  });
+
   
 
 });
